@@ -1,12 +1,11 @@
 # case_study4_fraud_detection
-Fraud Detection case study
+Fraud Detection case study.  
 
 ## Detection of fraud transactions
-Since the data is confidential, it is not shared here.
-Perform EDA and feature selection, and build model to detect fraud transactions.
+The data is confidential, and it is not shared here. Build a model to predict fraud transactions, and it is used to detect fraud transactions in the future.
 
 ## EDA and feature selection
-Feature selection was done to find features that are correlated with the fraud column. A "fraud" column was added to the dataframe to indicate that the event is fraud or not. If the account type value contains a 'fraud' phrase ('fraudster', 'fraudster_att', 'fraudster_event') the column is labeled as "fraud".
+Feature selection was done to find features that are correlated with the fraud events. A "fraud" column was added to the dataframe to indicate that the event is fraud or not. If the account type value contains a 'fraud' phrase ('fraudster', 'fraudster_att', 'fraudster_event') the column is labeled as "fraud".
 
 The data are preprocessed by applying several conditions based on EDA to find what kind of events are likely to contain fraud events.
 1. a new user
